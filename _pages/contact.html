@@ -20,14 +20,14 @@ This is an example of how to set up a map, if you uncomment this, the map will w
 
 {% leaflet_map {"zoom" : 6 } %}
 
-    {% leaflet_marker { "latitude" : 50.825909,
-                       "longitude" : 4.3701717,
-                       "popupContent" : "Supply, made in Brussels, Belgium"} %}
+    {% leaflet_marker { "latitude" : 25.5941,
+                       "longitude" : 85.1376,
+                       "popupContent" : "a2z-tech"} %}
 
     {% leaflet_geojson {
         "type": "Feature",
-        "properties": { "popupContent": "Supply",
-                        "href": "https://templates.supply" },
+        "properties": { "popupContent": "a2z-tech",
+                        "href": "https://a2z-tech.github.io" },
          } %}
 
 {% endleaflet_map %}
